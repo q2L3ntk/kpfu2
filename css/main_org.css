@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background-color: rgb(17, 81, 100);
+}
+
+/* Header */
+header {
+    width: 100%;
+    height: 400px;
+    background-image: url(/images/1613647518_64-p-fon-dlya-prezentatsii-k-godu-nauki-85.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 53.5%;
+    background-position-y: 3%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+}
+
+.logo {
+    height: 20%;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+.in_nav {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    color: rgb(255, 255, 255);
+    height: 30px;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+/* Main */
+h1 {
+    position: absolute;
+    margin-top: 24%;
+}
+
+h1, h2, .name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(17, 81, 100);
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.name {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.inf {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.main_left {
+    display: flex;
+    justify-content: center;
+}
+
+.left, .right {
+    background-color: rgb(164, 243, 255);
+    margin-inline: 1%;
+    margin-top: 1%;
+    padding: 5px;
+    padding-left: 3%;
+    border-radius: 20px;
+    width: 40%;
+    height: 400px;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    width: 100%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer_content {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
