@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="/css/auth_reg.css">
 </head>
 <body>
-    <form action="/user.php" method="post">
+    <form action="/redirect.php" method="post">
         <h1>Вход в личный кабинет</h1>
         <label for="login">Логин:</label><br>
         <input type="text" name="login" class="data" required><br>
