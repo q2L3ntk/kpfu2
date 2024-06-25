@@ -30,6 +30,7 @@
         <input type="submit" class="submit" value="Войти"><br>
 
         <p>Нет учётной записи?</p>
+        <a href="">Зарегистрироваться как организация</a><br>
         <a href="/registration.php">Зарегистрироваться</a>
     </form>
 </body>
