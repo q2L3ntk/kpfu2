@@ -19,9 +19,10 @@
     $password = $_POST['password'];
 
     $sql = "INSERT INTO `users` (surname, name, patronymic, login, password) VALUES ('$surname', '$name', '$patronymic', '$login', '$password')";
-    
+    $db -> query($sql);
+
     // if ($db -> query($sql)) {
-    //     echo "Успешно";
+    //     echo "Успешно"; 
     // } else {
     //     echo "Ошибка". $db -> error;
     // }

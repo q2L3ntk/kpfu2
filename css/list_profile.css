@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background-image: url(/images/EFFECT-e1615537303920.jpg);
+}
+
+/* Header */
+header {
+    background-color: rgb(17, 81, 100);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+}
+
+/* Main */
+main {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    gap: 30px;
+    justify-content: center;
+}
+
+div {
+    background-color: white;
+    padding: 2%;
+    border-radius: 20px;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+div:hover {
+    box-shadow: 2px 2px 4px rgb(17, 81, 100);
+}
+
+h1, h2, p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    color: rgb(17, 81, 100);
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    width: 100%;
+    margin-top: 11%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer_content {
+    color: white;
+}
