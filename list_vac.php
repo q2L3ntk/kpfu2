@@ -36,11 +36,5 @@
             }
         ?>
     </main>
-    <!-- Footer -->
-    <footer> 
-        <p class="footer_content">Электронная почта: kpfu@kpfu.ru</p>
-        <p class="footer_content">Связаться с нами: +7 999 999-99-99</p>
-        <p class="footer_content">© Казанский федеральный университет. Все права защищены</p>
-    </footer>
 </body>
 </html>

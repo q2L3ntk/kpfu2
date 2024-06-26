@@ -8,9 +8,9 @@
 
     if(isset($_POST["id"])) {
         $userid = $db->real_escape_string($_POST["id"]);
-        $sql = "DELETE FROM `resume` WHERE id = '$userid'";
+        $sql = "DELETE FROM `vacancy` WHERE id = '$userid'";
         if($db->query($sql)){
-            header("Location: admin_prof.php");
+            header("Location: admin_vac.php");
         }
         else{
             echo "Ошибка: " . $db->error;
