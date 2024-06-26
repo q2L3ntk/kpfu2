@@ -23,7 +23,7 @@ main {
     justify-content: center;
 }
 
-div {
+div, form {
     background-color: white;
     padding: 2%;
     border-radius: 20px;
@@ -31,7 +31,7 @@ div {
     cursor: pointer;
 }
 
-div:hover {
+div:hover, form {
     box-shadow: 2px 2px 4px rgb(17, 81, 100);
 }
 
@@ -41,6 +41,21 @@ h1, h2, p {
 
 h2 {
     color: rgb(17, 81, 100);
+}
+
+.submit {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: rgb(17, 81, 100);
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: rgb(149, 222, 244);
 }
 
 /* Footer */

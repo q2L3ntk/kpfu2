@@ -18,7 +18,7 @@
     <header>
         <h1>ПАНЕЛЬ АДМИНИСТРАТОРА</h1>
         <nav>
-            <a href="/close_session.php" class="nav_content">ВЫЙТИ</a>
+            <a href="/close_session.php" class="nav_content">ВЫЙТИ</a> 
         </nav>
     </header>
     <!-- Main -->
@@ -28,11 +28,11 @@
             <p class="disc">ВЫБЕРИТЕ ДЕЙСТВИЕ</p>
         </div>
         <div class="container">
-            <div class="block">
+            <div class="block vac">
                 <img src="/images/1695881635_gas-kvas-com-p-kartinki-karandash-3.png" alt="pencil" class="logo">
                 <h3>Изменить/удалить вакансию</h3>
             </div>
-            <div class="block">
+            <div class="block prof">
                 <img src="/images/223025_1411410625.png" alt="book" class="logo">
                 <h3>Изменить/удалить резюме</h3>
             </div>
@@ -44,5 +44,7 @@
         <p class="footer_content">Связаться с нами: +7 999 999-99-99</p>
         <p class="footer_content">© Казанский федеральный университет. Все права защищены</p>
     </footer>
+    <!-- JS -->
+    <script src="/js/admin.js"></script>
 </body>
 </html>

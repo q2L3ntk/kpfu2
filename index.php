@@ -24,9 +24,9 @@
         <!-- Top content -->
         <div class="top_main">
             <div class="content">
-                <a href="" class="inner first">ТРУДОУСТРОЙСТВО</a>
-                <a href="" class="inner second">ВАКАНСИИ</a>
-                <a href="" class="inner app">ОТКЛИКНУТЬСЯ</a>
+                <a href="/authorization.php" class="inner first">ТРУДОУСТРОЙСТВО</a>
+                <a href="/list_vac.php" class="inner second">ВАКАНСИИ</a>
+                <a href="/list_vac.php" class="inner app">ОТКЛИКНУТЬСЯ</a>
             </div>
             <div class="callendar">
                 <div class="upper">
@@ -71,5 +71,7 @@
         <p class="footer_content">Связаться с нами: +7 999 999-99-99</p>
         <p class="footer_content">© Казанский федеральный университет. Все права защищены</p>
     </footer>
+    <!-- JS -->
+    <script src="/js/index.js"></script>
 </body>
 </html>
