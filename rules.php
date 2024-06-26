@@ -1,3 +1,8 @@
+<?php
+    include "database/db.php";
+    dbConnectUniversity();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
