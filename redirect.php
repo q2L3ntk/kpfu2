@@ -9,17 +9,23 @@
     $login = $_POST['login'];
     $password = $_POST['password'];
 
-    $sql = "SELECT * FROM `users` WHERE `login` = '$login' AND `password` = '$password'";
-    $result = $db->query($sql);
+    $sql_user = "SELECT * FROM `users` WHERE `login` = '$login' AND `password` = '$password'";
+    $sql_org = "SELECT * FROM `organisations` WHERE `login` = '$login' AND `password` = '$password'";
+    $result_user = $db->query($sql_user);
+    $result_org = $db->query($sql_org);
 
     if ($login == 'admin' && $password == 'admin') {
         session_start();
         $_SESSION['admin'] = true;
         $script = 'admin.php';
-    } else if (mysqli_num_rows($result) > 0) {
+    } else if (mysqli_num_rows($result_user) > 0) {
         session_start();
         $_SESSION['user'] = true;
         $script = 'user.php';
+    } else if (mysqli_num_rows($result_org) > 0) {
+        session_start();
+        $_SESSION['org'] = true;
+        $script = 'organization.php';
     } else $script = 'authorization.php';
     
     header("Location: $script");

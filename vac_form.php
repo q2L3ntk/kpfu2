@@ -12,24 +12,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Анкета</title>
+    <title>Вакансия</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="/css/prof_form.css">
-</head> 
+    <link rel="stylesheet" href="/css/vac_form.css">
+</head>
 <body>
-    <form action="/prof_db.php" method="post">
-        <h1>ВАШЕ РЕЗЮМЕ</h1>
+<form action="/vac_db.php" method="post">
+        <h1>ВАКАНСИЯ</h1>
         <label for="title">Название:</label><br>
         <input type="text" name="title" class="data" required><br>
 
-        <label for="surname">Фамилия:</label><br>
-        <input type="text" name="surname" class="data" required><br>
-
-        <label for="name">Имя:</label><br>
-        <input type="text" name="name" class="data" required><br>
-
-        <label for="patronymic">Отчество:</label><br>
-        <input type="text" name="patronymic" class="data"><br>
+        <label for="org">Организация:</label><br>
+        <input type="text" name="org" class="data" required><br>
 
         <label for="direction">Направление:</label><br>
         <select name="direction" id="direction" class="data" required>
@@ -44,7 +38,7 @@
         <label for="discription">Подробное описание:</label><br>
         <textarea name="discription" id="discription" class="data" required></textarea><br>
 
-        <label for="money">Ожидаемая зарплата:</label><br>
+        <label for="money">Зарплата:</label><br>
         <input type="number" name="money" class="data" required><br>
 
         <input type="submit" value="Подтвердить" class="submit">

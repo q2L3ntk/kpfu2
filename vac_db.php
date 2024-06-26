@@ -7,15 +7,13 @@
     $db = new mysqli($db_host, $db_user, $db_pass, $db_name);
 
     $title = $_POST['title'];
-    $surname = $_POST['surname'];
-    $name = $_POST['name'];
-    $patronymic = $_POST['patronymic'];
+    $org = $_POST['org'];
     $direction = $_POST['direction'];
     $discription = $_POST['discription']; 
     $money = $_POST['money'];
 
-    $sql = "INSERT INTO `resume` (title, surname, name, patronymic, direction, discription, money) VALUES ('$title', '$surname', '$name', '$patronymic', '$direction', '$discription', '$money')";
+    $sql = "INSERT INTO `vacancy` (title, organization, direction, discription, money) VALUES ('$title', '$org', '$direction', '$discription', '$money')";
     $db -> query($sql);
 
-    header('Location: list_profile.php');
+    header('Location: list_vac.php');
 ?>
